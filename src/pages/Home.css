@@ -1,0 +1,133 @@
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.photo-gallery {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo {
+  width: 100%;
+  max-width: 250px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.photo:hover {
+  transform: scale(1.03);
+}
+
+.map-container {
+  margin-top: 40px;
+}
+
+.reviews-section {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 8px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.reviewer-name {
+  font-weight: 600;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.review-date {
+  font-size: 0.8rem;
+  color: #5f6368;
+  margin: 0;
+}
+
+.review-stars {
+  color: #fbbc04; /* Google’s star color */
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.review-text {
+  font-size: 1rem;
+  color: #202124;
+  margin: 0;
+}
+
+.scroll-controls {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.reviews-shelf {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 16px;
+  padding: 10px 0;
+  scrollbar-width: none; /* Hide scrollbar in Firefox */
+}
+
+.reviews-shelf::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in Chrome/Safari */
+}
+
+.google-review {
+  min-width: 250px;
+  max-width: 300px;
+  flex: 0 0 auto;
+  background: #fff;
+  border: 1px solid #dadce0;
+  box-shadow: 0 1px 3px rgb(60 64 67 / 0.1);
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.scroll-button {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  padding: 0 10px;
+  cursor: pointer;
+  color: #555;
+  user-select: none;
+}
+
+.scroll-button:hover {
+  color: #000;
+}
+
+
+/* Mobile styles for screens 600px wide or less */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  .photo-gallery {
+    flex-direction: column;
+  }
+
+  .photo-placeholder {
+    height: 120px;
+  }
+}
