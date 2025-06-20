@@ -128,7 +128,7 @@ const menuSections = [
     ]
   },
   {
-    title: 'C. Tempura Roll', 
+    title: 'C. Tempura Rolls', 
     items: [
       { name: 'CHICKEN TERIYAKI', description: 'Grilled chicken, cucumber with teriyaki sauce', price: '$9.95' },
       { name: 'CRAZY ROLL', description: 'BBQ eel, salmon skin, avocado, cucumber, cream cheese with eel sauce, spicy mayo & hot sauce', price: '$10.95' },
@@ -144,6 +144,42 @@ const menuSections = [
       { name: 'TWISTER ROLL', description: 'Cooked shrimp, avocado, cucumber, cream cheese with teriyaki sauce & spicy mayo sauce', price: '$11.95' },
       { name: 'VEGGIE TEMPURA ROLL', description: 'Asparagus, avocado, cucumber, egg, cream cheese with sweet sauce (broiled)', price: '$10.25' },
       { name: 'YUM YUM ROLL', description: 'Tuna, salmon, avocado, cucumber, cream cheese with teriyaki sauce & spicy mayo sauce', price: '$11.25' }
+    ]
+  },
+  {
+    title: 'D. Specialty Rolls', 
+    items: [
+      { name: 'BLACK PEARL ROLL', description: 'Crab salad, avocado, cucumber topped with cooked shrimp, BBQ eel sauce, crunch, black caviar, and eel sauce', price: '$15.95' },
+      { name: 'BUTTERFLY ROLL', description: 'Spicy tuna, avocado, cucumber topped with crab stick, avocado, crunch, hot pepper sauce & spicy mayo sauce', price: '$14.95' },
+      { name: 'CATERPILLAR ROLL', description: 'Spicy tuna, cucumber topped with avocado & masago', price: '$14.25' },
+      { name: 'COOKED SALMON PIZZA ROLL', description: 'Crunch california roll topped with salmon & spicy mayo sauce (broiled)', price: '$13.75' },
+      { name: 'COOKED SPICY TUNA ROLL', description: 'California roll topped with spicy tuna, spicy mayo sauce, and hot sauce (broiled)', price: '$15.25' },
+      { name: 'DRAGON ROLL', description: 'Deep fried shrimp, avocado, cucumber, topped with BBQ eel, avocado & eel sauce', price: '$14.95' },
+      { name: 'DYNAMITE ROLL', description: 'California roll topped with 5 different chopped pieces of fish, spicy mayo & hot sauce (blended)', price: '$13.95' },
+      { name: 'FIRECRACKER ROLL', description: 'Deep fried shrimp, avocado, cucumber, cream cheese topped with caviar, crunch, teriyaki sauce, spicy mayo sauce, and hot sauce', price: '$13.95' },
+      { name: 'FUTOMAKI ROLL', description: 'Crab stick, egg, black mushroom, yellow radish, avocado, cucumber, and masago', price: '$13.25' },
+      { name: 'GODZILLA ROLL', description: '', price: '$18.95' },
+      { name: 'HAVANA NIGHT ROLL', description: 'Tuna, salmon, red snapper, crab stick, cooked shrimp, wrapped in cucumber with spicy mayo sauce & sweet sauce', price: '$14.25' },
+      { name: '*HAWAIIAN ROLL', description: '', price: '$15.95' },
+      { name: 'JAZZ ROLL', description: 'California roll, cream cheese topped with smoked salmon, masago, crunch, and spicy mayo sauce (broiled)', price: '$14.25' },
+      { name: 'LOBSTER DELIGHT ROLL', description: '', price: '$14.95' },
+      { name: 'NINJA ROLL', description: 'Spicy tuna, cucumber topped with squid and hot sauce', price: '$13.25' },
+      { name: 'MICHIGAN ROLL', description: 'Smoked salmon, avocado, cucumber, cream cheese with masago and crunch', price: '$12.25' },
+      { name: '*MOONLIGHT ROLL', description: '', price: '$15.95' },
+      { name: 'RAINBOW ROLL', description: 'California roll topped with tuna, salmon snapper, white tuna, and white fish', price: '$14.95' },
+      { name: 'RED DRAGON ROLL', description: 'California roll topped with spicy tuna & spicy mayo sauce', price: '$13.95' },
+      { name: 'RED ROBIN ROLL', description: '', price: '$14.95' },
+      { name: '*SALMON ON THE BEACH ROLL', description: '', price: '$15.95' },
+      { name: 'SHELBY TOWNSHIP ROLL', description: 'Deep fried shrimp, avocado, cucumber topped with salmon, avocado & crunch', price: '$14.95' },
+      { name: 'SPICY MEXICAN ROLL', description: '', price: '$13.95' },
+      { name: '*SPIDER ROLL', description: '', price: '$15.95' },
+      { name: '*STARFISH ROLL', description: '', price: '$15.95' },
+      { name: 'SUNDAY MORNING ROLL', description: 'Deep fried shrimp, lettuce, cucumber, cream cheese topped with avocado, and teriyaki sauce', price: '$14.25' },
+      { name: 'SUPER BOWL ROLL', description: '', price: '$13.95' },
+      { name: '*SUPER THUNDER ROLL', description: '', price: '$15.25' },
+      { name: 'TOKYO TRIO ROLL', description: 'Deep fried shrimp, avocado, cucumber topped with tuna, salmon, red snapper, avocado, green onion, and spicy mayo sauce', price: '$13.95' },
+      { name: 'UMI SUSHI ROLL', description: 'Deep fried shrimp, avocado, cucumber, crunch topped with crab salad & spicy mayo sauce', price: '$13.95' },
+      { name: 'UNDER THE SEA ROLL', description: 'Spicy crab salad, cucumber, avacado topped with seaweed salad, masago, crunch, and spicy mayo sauce', price: '$13.95' },
     ]
   }
 ]
