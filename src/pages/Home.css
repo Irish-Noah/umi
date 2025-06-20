@@ -1,53 +1,19 @@
+/* ========== Layout Containers ========== */
 .container {
   max-width: 80%;
   margin: 0 auto;
   padding: 20px;
 }
 
-.photo-gallery {
-  display: flex;
-  gap: 10px;
-  margin: 20px 0;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.photo {
-  width: 100%;
-  max-width: 250px;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease;
-}
-
-.photo:hover {
-  transform: scale(1.03);
+.reviews-section {
+  margin: 30px 0;
 }
 
 .map-container {
   margin-top: 40px;
 }
 
-.reviews-section {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.review-header {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  margin-bottom: 8px;
-}
-
-.avatar {
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-}
-
+/* ========== Typography ========== */
 .reviewer-name {
   font-weight: 600;
   margin: 0;
@@ -72,6 +38,60 @@
   margin: 0;
 }
 
+/* ========== Photo Gallery ========== */
+.photo-gallery-outer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.photo-gallery-scroll {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+.photo-gallery-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.photo {
+  height: 160px;
+  min-width: 240px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.photo:hover {
+  transform: scale(1.05);
+}
+
+.photo-scroll-button {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  padding: 0 10px;
+  cursor: pointer;
+  color: #555;
+  user-select: none;
+}
+
+.photo-scroll-button:hover {
+  color: #000;
+}
+
+.photo-scroll-button:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+/* ========== Reviews Shelf ========== */
 .scroll-controls {
   position: relative;
   display: flex;
@@ -84,11 +104,11 @@
   scroll-behavior: smooth;
   gap: 16px;
   padding: 10px 0;
-  scrollbar-width: none; /* Hide scrollbar in Firefox */
+  scrollbar-width: none;
 }
 
 .reviews-shelf::-webkit-scrollbar {
-  display: none; /* Hide scrollbar in Chrome/Safari */
+  display: none;
 }
 
 .google-review {
@@ -97,11 +117,25 @@
   flex: 0 0 auto;
   background: #fff;
   border: 1px solid #dadce0;
-  box-shadow: 0 1px 3px rgb(60 64 67 / 0.1);
+  box-shadow: 0 1px 3px rgba(60, 64, 67, 0.1);
   padding: 15px;
   border-radius: 8px;
 }
 
+.review-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 8px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+/* ========== Scroll Buttons (Reviews) ========== */
 .scroll-button {
   background: none;
   border: none;
@@ -116,18 +150,24 @@
   color: #000;
 }
 
+.scroll-button:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
 
-/* Mobile styles for screens 600px wide or less */
+
+/* ========== Mobile Styles ========== */
 @media (max-width: 600px) {
   .container {
     padding: 10px;
   }
 
-  .photo-gallery {
-    flex-direction: column;
+  .photo-gallery-scroll {
+    gap: 8px;
   }
 
-  .photo-placeholder {
-    height: 120px;
+  .photo {
+    height: 140px;
+    min-width: 200px;
   }
 }

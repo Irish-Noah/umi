@@ -1,0 +1,45 @@
+.footer {
+  background-color: #262626;
+  color: #f1f1f1;
+  font-size: 14px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  margin: 5px 0;
+}
+
+.footer-link {
+  color: #f1f1f1;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #e0aaff; /* light purple hover or change to match your palette */
+}
+
+/* Stack layout for mobile */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    margin: 8px 0;
+  }
+}
