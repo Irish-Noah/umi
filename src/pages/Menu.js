@@ -46,15 +46,104 @@ const menuSections = [
   {
     title: 'Udon & Soba', 
     items: [
-      { name: 'California Roll', description: 'Crab, avocado, and cucumber', price: '$10' },
-      { name: 'Spicy Tuna Roll', description: 'Tuna and spicy mayo', price: '$11' },
+      { name: 'CHICKEN UDON', description: 'Thich wheat noodles and vegetables with chicken in a hot, fish-based broth', price: '$11.5' },
+      { name: 'KAKE SOBA', description: 'Your choice of thin buckwheat noodles (soba) and vegetables in a hot, fish-based broth', price: '$9.95' },
+      { name: 'KAKE UDON', description: 'Your choice of thick wheat noodles (udon) and vegetables in a hot, fish-baed broth', price: '$9.95' },
+      { name: 'NABE YAKI UDON', description: 'Thich wheat noodles and vegetables in a hot, fish-based broth with egg and shrimp tempura served in an iron pot', price: '$13.5' },
+      { name: 'TEMPURA SOBA', description: 'Your choice of thin buckwheat noodles (soba) and vegetables with shrimp tempura served in a hot, fish-based broth', price: '$12.5' },
+      { name: 'TEMPURA UDON', description: 'Your choice of thick wheat noodles (udon) and vegetables with shrimp tempura in a hot, fish-based broth', price: '$12.5' },
+      { name: 'YAKI SOBA', description: 'Pan fried noodles (soba) with your choice of meat', price: '$14.95' },
+      { name: 'YAKI UDON', description: 'Pan fried noodles (udon) with your choice of meat', price: '$14.95' }
     ]
   },
   {
-    title: 'Udon & Soba', 
+    title: 'Raw Nigiri Sushi', 
     items: [
-      { name: 'California Roll', description: 'Crab, avocado, and cucumber', price: '$10' },
-      { name: 'Spicy Tuna Roll', description: 'Tuna and spicy mayo', price: '$11' },
+      { name: 'BLUEFIN TUNA SUSHI', description: '', price: '$3.75' },
+      { name: 'FATTY YELLOWTAIL SUSHI', description: 'Fatty hamachi', price: '$3.25' },
+      { name: 'FLYING FISH ROE SUSHI', description: 'Tobiko', price: '$2.95' },
+      { name: 'MACKEREL SUSHI', description: 'Saba', price: '$2.5' },
+      { name: 'RED SNAPPER SUSHI', description: 'Tai', price: '$2.5' },
+      { name: 'SALMON SUSHI', description: 'Sake', price: '$2.75' },
+      { name: 'SALMON ROE SUSHI', description: 'Ikura', price: '$3.5' },
+      { name: 'SCALLOP SUSHI', description: 'Hot agai', price: '$2.5' },
+      { name: 'SMELT ROW SUSHI', description: 'Masago', price: '$2.95' },
+      { name: 'SQUID SUSHI', description: 'Ika', price: '$2.5' },
+      { name: 'SURF CLAM', description: 'Hokigai', price: '$2.5' },
+      { name: 'SWEET SHRIMP SUSHI', description: 'Amaebi', price: '$3.95' },
+      { name: 'TUNA SUSHI', description: 'Maguro', price: '$2.95' },
+      { name: 'WASABI SMELT ROE SUSHI', description: '', price: '$2.95' },
+      { name: 'WHITE TUNA SUSHI', description: 'Shiro magato', price: '$2.75' },
+      { name: 'YELLOWTAIL SUSHI', description: 'Hamachi', price: '$2.75' }
+      
+    ]
+  },
+  {
+    title: 'Cooked Nigiri Sushi', 
+    items: [
+      { name: 'CRAB STICK SUSHI', description: 'Kani', price: '$1.95' },
+      { name: 'FRESH WATER EEL SUSHI', description: 'Unagi', price: '$3.25' },
+      { name: 'FRIED TOFU SUSHI', description: 'Inari', price: '$1.95' },
+      { name: 'OCTOPUS SUSHI', description: 'Tako', price: '$2.5' },
+      { name: 'SHRIMP SUSHI', description: 'Ebi', price: '$2.75' },
+      { name: 'SMOKED SALMON SUSHI', description: '', price: '$2.95' }
+      
+    ]
+  },
+  {
+    title: 'A. Regular Rolls', 
+    items: [
+      { name: 'ALASKAN ROLL', description: 'Salmon, avocado, cucumber', price: '$7.75' },
+      { name: 'BLUEFIN TUNA ROLL', description: '', price: '$8.75' },
+      { name: 'CALIFORNIA ROLL', description: 'Crab stick, avocado, cucumber', price: '$6.25' },
+      { name: 'CRUNCHY CALIFORNIA ROLL', description: 'Crab stick, avocado, cucumber with masago & crunch', price: '$7.75' },
+      { name: 'EEL CRUCNH ROLL', description: 'BBQ eel, avocado, cucumber with masago & crunch', price: '$7.95' },
+      { name: 'GREEN RIVER ROLL', description: 'BBQ eel, avocado, cucumber with seaweed flakes & eel sauce', price: '$7.95' },
+      { name: 'JULIAN DRUM ROLL', description: 'Cooked shrimp, cucumber, carrot with sesame seeds', price: '$7.95' },
+      { name: 'PHILIDELPHIA ROLL', description: 'Smoked salmon, crab stick, avocado, cucumber, and cream cheese', price: '$7.95' },
+      { name: 'SALMON ROLL', description: 'Fresh salmon', price: '$6.75' },
+      { name: 'SHRIMP CALIFORNIA ROLL', description: 'Cooked shrimp, crab stick, avocado, and cucumber', price: '$7.75' },
+      { name: 'SHRIMP TEMPURA ROLL', description: 'Deep fried shrimp with crunch & teriyaki sauce', price: '$7.75' },
+      { name: 'SMOKED SALMON ROLL', description: 'Smoked salmon, avocado, and cucumber', price: '$7.75' },
+      { name: 'SPICY CALIFORNIA ROLL', description: 'Spicy crab salad, avocado, and cucumber', price: '$7.75' },
+      { name: 'SPICY PISTON ROLL', description: 'Spicy crab salad, avocado, cucumber, and cream cheese', price: '$7.95' },
+      { name: 'SPICY SALMON ROLL', description: 'Spicy salmon, avocado, and cucumber', price: '$7.75' },
+      { name: 'SPICY SCALLOP', description: 'Spicy scallop, avocado, and cucumber', price: '$7.75' },
+      { name: 'SPICY TUNA ROLL', description: 'Spicy tuna, avocado, and cucumber', price: '$7.75' },
+      { name: 'SPICY YELLOWTAIL ROLL', description: 'Spicy yellowtail, avocado, and cucumber', price: '$7.75' },
+      { name: 'TUNA ROLL', description: 'Fresh tuna', price: '$6.75' }
+    ]
+  },
+  {
+    title: 'B. Vegetable Rolls', 
+    items: [
+      { name: 'A.A.C ROLL', description: 'Avocado, asparagus, and cucumber', price: '$7' },
+      { name: 'ASPARAGUS ROLL', description: 'Asparagus', price: '$5.5' },
+      { name: 'AVOCADO ROLL', description: 'Avocado', price: '$5.5' },
+      { name: 'AVOCADO CUCUMBER ROLL', description: 'Avacado and cucumber', price: '$5.75' },
+      { name: 'BLACK MUSHROOM ROLL', description: 'Black mushroom', price: '$5.5' },
+      { name: 'CUCUMBER ROLL', description: 'Cucumber kappa', price: '$5.5' },
+      { name: 'PICKLE RADISH ROLL', description: 'Pickle radish oshinko', price: '$5.5' },
+      { name: 'UMI ISLAND', description: 'Asparagus, avocado, cucumber, red beet, and carrot', price: '$9.95' }
+    ]
+  },
+  {
+    title: 'C. Tempura Roll', 
+    items: [
+      { name: 'CHICKEN TERIYAKI', description: 'Grilled chicken, cucumber with teriyaki sauce', price: '$9.95' },
+      { name: 'CRAZY ROLL', description: 'BBQ eel, salmon skin, avocado, cucumber, cream cheese with eel sauce, spicy mayo & hot sauce', price: '$10.95' },
+      { name: 'EEL ROLL', description: 'BBQ eel, avocado, cucumber, and cream cheese with eel sauce', price: '$10.95' },
+      { name: 'FIESTA ROLL', description: 'Spicy tuna, crab salad, avocado, cucumber, cream cheese with crunch, spicy mayo & teriyaki sauce', price: '$15.95' },
+      { name: 'LOBSTER ROLL', description: 'Lobster, avocado, cucumber, cream cheese with lobster sweet sauce', price: '$10.95' },
+      { name: "ROCK N' ROLL", description: 'BBQ eel, avocado, cucumber, egg on one side with tuna salmon, cream cheese on the other side3 with 5 different sauces', price: '$17.95' },
+      { name: 'SAMURAI ROLL', description: 'White tuna, salmon, snapper, cream cheese, green onion with hot sauce & spicy mayo sauce', price: '$11.95' },
+      { name: 'SPICY CALIFORNIA ROLL', description: 'Spicy crab salad, avocado, cucumber, cream cheese with spicy mayo sauce', price: '$10.75' },
+      { name: 'SPICY HURRICANE ROLL', description: 'BBQ eel, avocado, crab stick, cucumber, cream cheese with eel sauce & spicy mayo sauce', price: '$11.95' },
+      { name: 'SPICY SHRIMP ROLL', description: 'Cooked shrimp, avocado, cucumber, cream cheese with spicy mayo sauce', price: '$10.75' },
+      { name: 'SPICY TUNA ROLL', description: 'Spicy tuna, avocado, cucumber, cream cheese with spicy mayo sauce', price: '$10.95' },
+      { name: 'TWISTER ROLL', description: 'Cooked shrimp, avocado, cucumber, cream cheese with teriyaki sauce & spicy mayo sauce', price: '$11.95' },
+      { name: 'VEGGIE TEMPURA ROLL', description: 'Asparagus, avocado, cucumber, egg, cream cheese with sweet sauce (broiled)', price: '$10.25' },
+      { name: 'YUM YUM ROLL', description: 'Tuna, salmon, avocado, cucumber, cream cheese with teriyaki sauce & spicy mayo sauce', price: '$11.25' }
     ]
   }
 ]

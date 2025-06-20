@@ -21,14 +21,16 @@ p{
 }
 
 .menu-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
-  align-items: start;
+  column-count: 2;
+  column-gap: 40px
 }
 
 .menu-section {
   break-inside: avoid;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+  display: inline-block;
+  width: 100%;
 }
 
 .menu-item {
@@ -71,6 +73,6 @@ hr {
 /* Responsive: single column on mobile */
 @media (max-width: 768px) {
   .menu-grid {
-    grid-template-columns: 1fr;
+    column-count: 1;
   }
 }
