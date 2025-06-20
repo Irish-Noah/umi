@@ -60,7 +60,7 @@
 }
 
 .photo {
-  height: 160px;
+  height: 250px;
   min-width: 240px;
   object-fit: cover;
   border-radius: 10px;

@@ -2,17 +2,24 @@ import { React, useRef, useState, useEffect } from 'react';
 import './Home.css';
 
 // all the images
-import yummy1 from '../assets/yummy.jpg';
-import yummy2 from '../assets/yummy2.jpg';
-import yummy3 from '../assets/yummy3.jpg';
-import rich from '../assets/richrich.png';
-import handsome from '../assets/handsomedevil.png';
-import myladee from '../assets/myladee.png';
-import teresa from '../assets/teresa.png';
-import becky from '../assets/becky.png';
-import mari from '../assets/mari.png';
-import paul from '../assets/paul.png';
-import emily from '../assets/emily.png'
+import yummy1 from '../assets/gallery/yummy.jpg';
+import yummy2 from '../assets/gallery/yummy2.jpg';
+import yummy3 from '../assets/gallery/yummy3.jpg';
+import yummy4 from '../assets/gallery/yummy4.jpg';
+import yummy5 from '../assets/gallery/yummy5.jpg';
+import yummy6 from '../assets/gallery/yummy6.jpg';
+import yummy7 from '../assets/gallery/yummy7.jpg';
+import yummy8 from '../assets/gallery/yummy8.jpg';
+
+
+import rich from '../assets/pfps/richrich.png';
+import handsome from '../assets/pfps/handsomedevil.png';
+import myladee from '../assets/pfps/myladee.png';
+import teresa from '../assets/pfps/teresa.png';
+import becky from '../assets/pfps/becky.png';
+import mari from '../assets/pfps/mari.png';
+import paul from '../assets/pfps/paul.png';
+import emily from '../assets/pfps/emily.png'
 
 export default function Home() {
   const reviewContainerRef = useRef(null);
@@ -61,14 +68,14 @@ export default function Home() {
   }, []);
 
   return (
-    <div style={{ maxWidth: 800, margin: '0 auto', padding: 20 }}>
+    <div className='container'>
   
         
-        <h1>Welcome to Umi Sushi!</h1>
-        <p>
-        Experience the freshest sushi and authentic Japanese cuisine made with love and tradition.
-        Our chefs craft each dish using the finest ingredients to delight your taste buds.
-        </p>
+      <h1>Welcome to Umi Sushi!</h1>
+      <p>
+      Experience the freshest sushi and authentic Japanese cuisine made with love and tradition.
+      Our chefs craft each dish using the finest ingredients to delight your taste buds.
+      </p>
 
       <h2>Fresh from the Kitchen</h2>
       <div className="photo-gallery-outer">
@@ -81,7 +88,7 @@ export default function Home() {
         </button>
 
         <div className="photo-gallery-scroll" ref={photoGalleryRef}>
-          {[yummy1, yummy2, yummy3, yummy1, yummy2, yummy3].map((img, index) => (
+          {[yummy5, yummy6, yummy2, yummy3, yummy8, yummy4, yummy7, yummy1].map((img, index) => (
             <img key={index} src={img} alt={`Gallery ${index}`} className="photo" />
           ))}
         </div>
