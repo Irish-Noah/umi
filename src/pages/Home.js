@@ -1,7 +1,7 @@
 import { React, useRef, useState, useEffect } from 'react';
 import './Home.css';
 
-// all the images
+// food images
 import yummy1 from '../assets/gallery/yummy.jpg';
 import yummy2 from '../assets/gallery/yummy2.jpg';
 import yummy3 from '../assets/gallery/yummy3.jpg';
@@ -11,7 +11,7 @@ import yummy6 from '../assets/gallery/yummy6.jpg';
 import yummy7 from '../assets/gallery/yummy7.jpg';
 import yummy8 from '../assets/gallery/yummy8.jpg';
 
-
+// reviewer images
 import rich from '../assets/pfps/richrich.png';
 import handsome from '../assets/pfps/handsomedevil.png';
 import myladee from '../assets/pfps/myladee.png';

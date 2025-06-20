@@ -1,0 +1,76 @@
+/* ========== General Layout ========== */
+body {
+  font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+p{
+  font-size: 1.2rem;
+}
+
+/* ========== Menu Items ========== */
+.menu-container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.menu-section {
+  break-inside: avoid;
+}
+
+.menu-item {
+  margin-bottom: 16px;
+}
+
+
+.menu-item-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 1.35rem;
+  font-family: 'Playfair Display', serif;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.item-description {
+  margin: 4px 0 12px;
+  color: #fff;
+  font-family: 'Sawarabi Gothic', sans-serif;
+  font-size: 1.2rem;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.menu-section h2 {
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+  font-family: 'Noto Sans JP', serif;
+  font-size: 2rem;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 10px 0;
+}
+
+/* Responsive: single column on mobile */
+@media (max-width: 768px) {
+  .menu-grid {
+    grid-template-columns: 1fr;
+  }
+}
