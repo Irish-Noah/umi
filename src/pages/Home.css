@@ -9,7 +9,19 @@ h1, h2, h3 {
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
 }
 
+h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
 p{
+  font-size: 1.2rem;
+}
+
+.body-text {
+  font-family: 'Sawarabi Gothic', sans-serif;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
   font-size: 1.2rem;
 }
 
@@ -226,13 +238,19 @@ p{
   width: 50px; /* Keeps all day labels aligned */
   font-weight: bold;
   flex-shrink: 0;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
 }
 
 .hours-list .time {
   flex: 1;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
 }
 
-
+.contact {
+  color: #f1f1f1;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
 
 /* ========== Mobile Styles ========== */
 @media (max-width: 600px) {

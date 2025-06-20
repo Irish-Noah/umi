@@ -72,7 +72,7 @@ export default function Home() {
   
         
       <h1>Welcome to Umi Sushi!</h1>
-      <p>
+      <p className='body-text'>
       Experience the freshest sushi and authentic Japanese cuisine made with love and tradition.
       Our chefs craft each dish using the finest ingredients to delight your taste buds.
       </p>
@@ -110,7 +110,7 @@ export default function Home() {
           <div className="reviews-shelf" ref={reviewContainerRef}>
             <div className="google-review">
               <div className="review-header">
-                <img src={handsome} alt="Reviewer avatar" className="avatar" />
+                <img src={handsome} title="this guy is really handsome" alt="Reviewer avatar" className="avatar" />
                 <div>
                   <p className="reviewer-name">Noah Robert</p>
                   <p className="review-date">2 months ago</p>
@@ -242,8 +242,8 @@ export default function Home() {
             </ul>
 
             <h4>Call Ahead</h4>
-            <p><a href="tel:+15867268360">(586) 726-8360</a> (Takeout/Catering)</p>
-            <p>We unfortunately do not take any reservations. Thank you for understanding!</p>
+            <p className='body-text' ><a className="contact" href="tel:+15867268360">(586) 726-8360</a> (Takeout/Catering)</p>
+            <p className='body-text' >We unfortunately do not take any reservations. Thank you for understanding!</p>
           </div>
 
         
