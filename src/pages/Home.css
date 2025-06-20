@@ -1,3 +1,18 @@
+/* ========== General Layout ========== */
+body {
+  font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+p{
+  font-size: 1.2rem;
+}
+
 /* ========== Layout Containers ========== */
 .container {
   max-width: 80%;
@@ -78,7 +93,7 @@
   font-size: 2rem;
   padding: 0 10px;
   cursor: pointer;
-  color: #555;
+  color: #fff;
   user-select: none;
 }
 
@@ -123,6 +138,7 @@
 }
 
 .review-header {
+  color: #000;
   display: flex;
   align-items: center;
   gap: 15px;
@@ -142,7 +158,7 @@
   font-size: 2rem;
   padding: 0 10px;
   cursor: pointer;
-  color: #555;
+  color: #fff;
   user-select: none;
 }
 
@@ -154,6 +170,68 @@
   opacity: 0.3;
   cursor: default;
 }
+
+/* ========== Map and Info ========== */
+
+.map-info-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+  align-items: flex-start;
+}
+
+.business-info {
+  flex: 1 1 250px;
+  max-width: 300px;
+  color: #fff;
+  font-size: 0.95rem;
+}
+
+.business-info h3,
+.business-info h4 {
+  margin-bottom: 0.4em;
+  color: #fff;
+}
+
+.hours-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1em;
+}
+
+.hours-list li {
+  margin-bottom: 6px;
+}
+
+.map-container {
+  flex: 2 1 400px;
+  min-width: 280px;
+}
+
+.hours-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.hours-list li {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  margin-bottom: 6px;
+}
+
+.hours-list .day {
+  width: 50px; /* Keeps all day labels aligned */
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.hours-list .time {
+  flex: 1;
+}
+
 
 
 /* ========== Mobile Styles ========== */

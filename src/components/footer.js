@@ -12,14 +12,14 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="footer-link"
           >
-            📍 123 Sushi Street, Sushi City, NY
+            📍 12137 23 Mile Rd, Shelby Township
           </a>
         </div>
         <div className="footer-center">
           <p>© {new Date().getFullYear()} Umi Sushi · All rights reserved</p>
         </div>
         <div className="footer-right">
-          <a href="tel:5551234567" className="footer-link">
+          <a href="tel:+15867268360" className="footer-link">
             📞 (586) 726-8360
           </a>
         </div>
