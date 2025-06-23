@@ -181,6 +181,74 @@ const menuSections = [
       { name: 'UMI SUSHI ROLL', description: 'Deep fried shrimp, avocado, cucumber, crunch topped with crab salad & spicy mayo sauce', price: '$13.95' },
       { name: 'UNDER THE SEA ROLL', description: 'Spicy crab salad, cucumber, avacado topped with seaweed salad, masago, crunch, and spicy mayo sauce', price: '$13.95' },
     ]
+  },
+  {
+    title: 'Entrees', 
+    items: [
+      { name: 'BIBIM-BAP', description: 'Your choice of meat with steamed rice, fresh vegetables, and a fried egg in a hot stone bowl', price: '$15.95' },
+      { name: 'BULGOGI', description: 'Thin slices of tender, marinated beef and onions served with rice', price: '$17.95' },
+      { name: 'CHICKEN KATSU', description: 'Deep fried breaded chicken cutlet served with rice and katsu sauce', price: '$15.95' },
+      { name: 'CHIRASHI', description: 'An assortment of raw fish served with sushi rice in a traditional box', price: '$21.95' },
+      { name: 'EBI (SHRIMP) TEMPURA', description: 'Lightly deep fried shrimp served with rice and tempura sauce', price: '$17.95' },
+      { name: 'HWE DUP BAP', description: 'Tossed assortment of raw fish, caviar, and vegetables served with rice and hwe dup bap sauce', price: '$20.95' },
+      { name: 'SAKE (SALMON) DON', description: 'Sliced salmon served over sushi rice in a traditional box', price: '$21.95' },
+      { name: 'TEKKA (TUNA) DON', description: 'Sliced tuna served over sushi rice in a traditional box', price: '$22.95' },
+      { name: 'TEMPURA COMBO', description: 'Lightly deep fried shrimp and vegetables served with rice and tempura sauce', price: '$16.95' },
+      { name: 'TERIYAKI', description: 'Your choice of grilled meat with fresh vegetables topped with teriyaki sauce served with rice', price: '$17.95' },
+      { name: 'TON KATSU', description: 'Deep fried breaded pork cutlet served with rice and katsu sauce', price: '$15.95' },
+      { name: 'UMI FRIED RICE', description: 'Pan fried rice with egg and vegetables with your choice of meat', price: '$14.95' },
+      { name: 'UMI HIBACHI', description: 'Your choice of grilled meat with fresh, pan-fried vegetables served with sweet and spicy ginger hibachi sauce with rice', price: '$18.95' },
+      { name: 'UMI SPECIAL BENTO', description: 'California roll, shrimp and vegetable tempura, gyoza, a 6 piece shashimi, and a 3 piece nigiri all served in a traditional Bento box', price: '$27.95' },
+      { name: 'UNAJU', description: 'Broiled freshwater eel served over sushi rice with kebayaki sauce in a traditional box', price: '$23.95' },
+      { name: 'VEGETABLE TEMPURA', description: 'Lightly deep fried vegetables served with rice and tempura sauce', price: '$14.95' }
+    ]
+  },
+  {
+    title: 'Sushi and Sashimi Combos', 
+    items: [
+      { name: 'DELUXE SASHIMI COMBO', description: '18 pieces of sashimi', price: '$34.95' },
+      { name: 'DELUXE SASHIMI AND SUSHI COMBO', description: '7 pieces of sushi and 10 pieces of sashimi', price: '$35.95' },
+      { name: 'DELUXE SUSHI COMBO', description: '10 pieces of sushi and 1 california roll', price: '$26.95' },
+      { name: 'REGULAR SASHIMI COMBO', description: '12 pieces of sashimi', price: '$24.95' },
+      { name: 'REGULAR SASHIMI AND SUSHI COMBO', description: '5 pieces of sushi and 6 pieces of sashimi', price: '$25.95' },
+      { name: 'REGULAR SUSHI COMBO', description: '6 pieces of sushi and 1 spicy tuna roll', price: '$19.95' },
+      { name: 'UMI PREMIUM SASHIMI COMBO', description: '65 pieces of sashimi', price: '$99.95' },
+      { name: 'UMI PREMIUM SASHIMI AND SUSHI COMBO', description: '25 pieces of sushi and 30 pieces of sashimi', price: '$99.95' },
+      { name: 'UMI PREMIUM SUSHI COMBO', description: '30 pieces of sushi, 1 Umi roll, and 1 Michigan roll', price: '$84.95' },
+      { name: 'UMI SPECIAL SASHIMI COMBO', description: '50 pieces of sashimi', price: '$84.95' },
+      { name: 'UMI SPECIAL SASHIMI AND SUSHI COMBO', description: '20 pieces of sushi and 20 pieces of sashimi', price: '$85.95' },
+      { name: 'UMI SPECIAL SUSHI COMBO', description: '20 pieces of sushi and 1 Umi roll', price: '$54.95' },
+      { name: 'SPECIAL SASHIMI COMBO', description: '30 pieces of sashimi', price: '$54.95' },
+      { name: 'SPECIAL SASHIMI AND SUSHI COMBO', description: '10 pieces of sushi and 15 pieces of sashimi', price: '$55.95' },
+      { name: 'SPECIAL SUSHI COMBO', description: '15 pieces of sushi and 1 crunchy california roll', price: '$39.95' }
+    ]
+  },
+  {
+    title: 'Desserts', 
+    items: [
+      { name: 'BANANA TEMPURA', description: 'Deep fried banana with vanilla ice cream, wafer roll, chocolate syrup, and matcha powder', price: '$5.95' },
+      { name: 'CHEESECAKE TEMPURA', description: 'Deep fried cheesecake topped with whipped cream and a cherry on top', price: '$5.95' },
+      { name: 'MOCHI ICE CREAM', description: 'Your choice of flavored ice cream covered in mochi and topped with whipped cream', price: '$4.95' }
+    ]
+  },
+  {
+    title: 'Beverages', 
+    items: [
+      { name: 'BOTTLED WATER', description: '', price: '$2' },
+      { name: 'CANADA DRY', description: '', price: '$2' },
+      { name: 'CHOCOLATE MILK', description: '', price: '$2' },
+      { name: 'COKE', description: '', price: '$2' },
+      { name: 'DIET COKE', description: '', price: '$2' },
+      { name: 'ICED TEA', description: '', price: '$2' },
+      { name: 'LEMONADE', description: '', price: '$2' },
+      { name: 'MOUNTAIN DEW', description: '', price: '$2' },
+      { name: 'PERRIER', description: '', price: '$3.95' },
+      { name: 'RED BULL', description: '', price: '$4.25' },
+      { name: 'S. PELLEGRINO', description: '', price: '$3.95' },
+      { name: 'SPRITE', description: '', price: '$2' },
+      { name: 'SUNKIST', description: '', price: '$2' },
+      { name: 'WHOLE MILK', description: '', price: '$2' }
+    ]
   }
 ]
 
